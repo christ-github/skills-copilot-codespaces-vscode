@@ -1,0 +1,21 @@
+function skillsMember() {
+  var member = document.getElementById("member");
+  var memberSkills = document.getElementById("member-skills");
+  var memberSkillsIcon = document.getElementById("member-skills-icon");
+  var memberSkillsIconImg = document.getElementById("member-skills-icon-img");
+  var memberSkillsIconImgSrc = memberSkillsIconImg.getAttribute("src");
+  var memberSkillsIconImgSrcSplit = memberSkillsIconImgSrc.split("/");
+  var memberSkillsIconImgSrcSplitLength = memberSkillsIconImgSrcSplit.length;
+  var memberSkillsIconImgSrcSplitLast = memberSkillsIconImgSrcSplit[memberSkillsIconImgSrcSplitLength - 1];
+  var memberSkillsIconImgSrcSplitLastSplit = memberSkillsIconImgSrcSplitLast.split(".");
+  var memberSkillsIconImgSrcSplitLastSplitLength = memberSkillsIconImgSrcSplitLastSplit.length;
+  var memberSkillsIconImgSrcSplitLastSplitLast = memberSkillsIconImgSrcSplitLastSplit[memberSkillsIconImgSrcSplitLastSplitLength - 2];
+  var memberSkillsIconImgSrcSplitLastSplitLastSplit = memberSkillsIconImgSrcSplitLastSplitLast.split("-");
+  var memberSkillsIconImgSrcSplitLastSplitLastSplitLength = memberSkillsIconImgSrcSplitLastSplitLastSplit.length;
+  var memberSkillsIconImgSrcSplitLastSplitLastSplitLast = memberSkillsIconImgSrcSplitLastSplitLastSplit[memberSkillsIconImgSrcSplitLastSplitLastSplitLength - 1];
+  var memberSkillsIconImgSrcSplitLastSplitLastSplitLastSplit = memberSkillsIconImgSrcSplitLastSplitLastSplitLast.split("_");
+  var memberSkillsIconImgSrcSplitLastSplitLastSplitLastSplitLength = memberSkillsIconImgSrcSplitLastSplitLastSplitLastSplit.length;
+  var memberSkillsIconImgSrcSplitLastSplitLastSplitLastSplitLast = memberSkillsIconImgSrcSplitLastSplitLastSplitLastSplit[memberSkillsIconImgSrcSplitLastSplitLastSplitLastSplitLength - 1];
+  var memberSkillsIconImgSrcSplitLastSplitLastSplitLastSplitLastSplit = memberSkillsIconImgSrcSplitLastSplitLastSplitLastSplitLast.split("?");
+  var memberSkillsIconImgSrcSplitLastSplitLastSplitLastSplitLastSplitLength = memberSkillsIconImgSrcSplitLastSplitLastSplitLastSplitLastSplit.length;
+  var memberSkillsIconImgSrcSplitLastSplitLastSplitLastSplitLastSplitLast = memberSkillsIconImgSrcSplitLastSplitLastSplitLastSplit
